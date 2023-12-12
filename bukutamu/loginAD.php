@@ -54,7 +54,7 @@ if ($_SERVER['REQUEST_METHOD']=="POST"){
     		margin-top: 20px;
     	}
     	body{
-    		background:url('img/beasiswa.jpg');
+    		background:url('../img/beasiswa.jpg');
     		background-size: 200px;
     	}
     </style>

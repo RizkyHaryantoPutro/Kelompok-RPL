@@ -34,13 +34,16 @@ include 'headerAD.php';
 	<tr>
 		<td style="text-align: center;"><?= $i ?></td>
 		<td>
-			<img src="img/<?= $dta['foto'] ?>" width="50" height="50">
+			<img src="img/<?= $dta['foto'] ?>" width="89" height="95">
 		</td>
 		<td><?= $dta['nim'] ?></td>
 		<td><?= $dta['nama'] ?></td>
 		<td><?= $dta['program_studi'] ?></td>
 		<td>
+		    <a class="btn btn-warning btn-sm" href="editAA.php?id=<?= $dta['nim'] ?>">UPDATE</a> 
+			<a class="btn btn-danger btn-sm" href="hapusAA.php?id=<?= $dta['nim'] ?>" onclick= "return confirm('apakah anda yakin ingin menghapus data?')">DELETE</a>
 			<a class="btn btn-success btn-sm" href="cetak_kartu_proses.php?id=<?= $dta['idanggota'] ?>" target="_blank" >CETAK KARTU</a>
+			
 		</td>
 	</tr>
 	<?php $i++; ?>

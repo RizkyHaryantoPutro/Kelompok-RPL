@@ -1,7 +1,7 @@
 
 <footer class="footer">
       <div class="container">
-        <p class="text-muted">Created By Erick Irwansyah</p>
+        <p class="text-muted">UNIVERSITAS SEMARANG 2023</p>
       </div>
     </footer>
 
