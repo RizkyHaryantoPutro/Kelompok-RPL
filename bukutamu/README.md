@@ -1,2 +1,0 @@
-# aplikasi_pengunjung_perpustakaan
-aplikasi pengunjung perpustakaan
